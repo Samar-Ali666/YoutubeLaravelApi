@@ -1,7 +1,19 @@
 {
-    "name": "alchemyguy/youtube-laravel-api",
+    "name": "rippleberry/youtube-laravel-api",
     "description": "It is a wrapper over Youtube Api v3 which simplifies functionalities the laravel way.",
-    "keywords": ["alchemyguy", "YoutubeLaravelApi", "Youtube LiveStream", "php", "Youtube Backup", "Youtube Video", "Youtube Api V3", "laravel", "Oauth", "google api", "Youtube Channel"],
+    "keywords": [
+        "alchemyguy",
+        "YoutubeLaravelApi",
+        "Youtube LiveStream",
+        "php",
+        "Youtube Backup",
+        "Youtube Video",
+        "Youtube Api V3",
+        "laravel",
+        "Oauth",
+        "google api",
+        "Youtube Channel"
+    ],
     "homepage": "https://github.com/alchemyguy/YoutubeLaravelApi",
     "license": "MIT",
     "authors": [
@@ -28,10 +40,8 @@
         }
     },
     "scripts": {
-        "check-style":
-            "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
-        "fix-style":
-            "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
     },
     "extra": {
         "branch-alias": {
