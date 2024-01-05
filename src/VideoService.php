@@ -183,7 +183,8 @@ class VideoService extends AuthService {
 			 * set defer to false [to make other calls after the file upload]
 			 */
 			$this->client->setDefer(false);
-			return true;
+			
+			return $status;
 
 		} catch (\Google_Service_Exception $e) {
 			throw new Exception($e->getMessage(), 1);
